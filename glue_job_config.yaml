@@ -1,0 +1,18 @@
+DYNAMODB_TABLE_NAME: MetadataCreditCard
+METADATA_FIELDS:
+- RL_AccountNumber
+- RL_ApplicationNumber
+- RL_DocumentCategory
+- RL_ChannelName
+- RL_DateOfBirth
+- RL_DateTimeReceived
+- RL_DateTimeVerified
+- DocumentTitle
+- RL_FirstName
+- RL_LastName
+- RL_QueueName
+- DateCreated
+- DateLastModified
+- LastModifier
+- MajorVersionNumber
+S3_BUCKET_NAME: ht-migration-dev
