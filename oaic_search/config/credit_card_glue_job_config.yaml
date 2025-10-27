@@ -1,5 +1,6 @@
 DYNAMODB_TABLE_NAME: MetadataCreditCard
 METADATA_FIELDS:
+- ID
 - RL_AccountNumber
 - RL_ApplicationNumber
 - RL_DocumentCategory
