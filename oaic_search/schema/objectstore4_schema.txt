@@ -1,0 +1,20 @@
+
+CREATE TABLE PRODCEOBJSTORE4 (
+    ID INT PRIMARY KEY NOT NULL,
+	GEAccountNumber VARCHAR2(192 BYTE),
+	GEChannel VARCHAR2(192 BYTE),
+	GECustomerId VARCHAR2(45 BYTE),
+	GEDocumentDescription VARCHAR2(192 BYTE),
+	GEDocumentGeneratedName VARCHAR2(192 BYTE),
+	SourceDocument RAW(16),
+	DocumentTitle VARCHAR2(90 BYTE),
+	GEDOCUMENTTYPE VARCHAR2(765 BYTE),
+	GEFileName VARCHAR2(192 BYTE),
+	GELoanAccountNumber VARCHAR2(192 BYTE),
+	GELoanApplicationNumber VARCHAR2(192 BYTE),
+	Creator VARCHAR2(240 BYTE),
+	DateCreated DATE,
+	DateLastModified DATE,
+	LastModifier VARCHAR2(240 BYTE),
+	MajorVersionNumber NUMBER(10,0) NOT NULL ENABLE
+);

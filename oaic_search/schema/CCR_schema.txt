@@ -1,0 +1,15 @@
+
+CREATE TABLE CONSUMERCREDITREPORTING (
+    ID INT PRIMARY KEY NOT NULL,
+	AccountNumber VARCHAR2(192 BYTE),
+	CustomerFirstName VARCHAR2(192 BYTE),
+	CustomersLastName VARCHAR2(192 BYTE),
+	DocumentId VARCHAR2(192 BYTE),
+	ProductType VARCHAR2(192 BYTE),
+	DocumentTitle VARCHAR2(765 BYTE),
+	Creator VARCHAR2(240 BYTE),
+	DateCreated DATE,
+	DateLastModified DATE,
+	LastModifier VARCHAR2(240 BYTE),
+	MajorVersionNumber NUMBER(10,0) NOT NULL ENABLE
+);

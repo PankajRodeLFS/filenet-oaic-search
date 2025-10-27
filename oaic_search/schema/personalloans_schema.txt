@@ -1,0 +1,19 @@
+
+CREATE TABLE PersonalLoans (
+    ID INT PRIMARY KEY NOT NULL,
+	accountNumber VARCHAR2(192 BYTE),
+	applicationNumber VARCHAR2(192 BYTE),
+	firstName VARCHAR2(192 BYTE),
+	lastName VARCHAR2(192 BYTE),
+	channel VARCHAR2(192 BYTE),
+	DocumentTitle VARCHAR2(765 BYTE),
+	Creator VARCHAR2(240 BYTE),
+	DateCreated DATE,
+	DateLastModified DATE,
+	LastModifier VARCHAR2(240 BYTE),
+	MajorVersionNumber NUMBER(10,0) NOT NULL ENABLE,
+	documentCategory VARCHAR2(192 BYTE),
+	dateofBirth VARCHAR2(192 BYTE),
+	documentId VARCHAR2(192 BYTE),
+	documentType VARCHAR2(192 BYTE),
+);
