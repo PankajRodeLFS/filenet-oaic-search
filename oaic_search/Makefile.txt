@@ -1,0 +1,12 @@
+# Basic deployment makefile for cloudformation template
+SHELL:=/bin/bash
+
+include /usr/local/cicd/make/common.mk
+include /usr/local/cicd/make/security_scans.mk
+include /usr/local/cicd/make/infrastructure.mk
+
+ifeq ($(CONFIG),)
+    $(warning CONFIG defaults to "dev")
+    CONFIG=dev
+endif
+
